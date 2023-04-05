@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * Using the function print_listint_safe, a linked list can be printed safely.
+ * Using the function print_listint_safe,a linked list can be printed safely.
  */
 size_t print_listint_safe(const listint_t *head)
 {
