@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * add_nodeAdd a new node to the beginning of a linked list with the following syntax: int 
- * @head: pointer to the list's initial node 
- * @n: data to insert in the new node 
- * Upon successful completion, return a reference to the new node or NULL.
+ * add_node *The syntax to insert a new node at the start of a linked list is as follows: int 
+ * @head: a pointer to the first node of the list 
+ * @n: information to be inserted into the new node 
+ * Return a reference to the new node or NULL when the operation has been successful.
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
